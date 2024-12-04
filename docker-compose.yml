@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  selenium-bot:
+    build:
+      context: .
+    environment:
+      - BASE_URL=${BASE_URL}
+      - USERNAME=${USERNAME}
+      - PASSWORD=${PASSWORD}
+      - USERNAME_FIELD_ID=${USERNAME_FIELD_ID}
+      - PASSWORD_FIELD_ID=${PASSWORD_FIELD_ID}
+      - LOGIN_BUTTON_SELECTOR=${LOGIN_BUTTON_SELECTOR}
+    volumes:
+      - ./logs:/app/logs
+    container_name: selenium_bot
