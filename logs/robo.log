@@ -1,0 +1,80 @@
+2024-12-04 13:48:34 - INFO - Inicializando o robô de login
+2024-12-04 13:48:35 - INFO - Criando a instância do LoginBot
+2024-12-04 13:48:35 - INFO - Executando o login no site
+2024-12-04 13:48:35 - INFO - Acessando a URL: site
+2024-12-04 13:48:35 - ERROR - Erro inesperado durante o login: Message: invalid argument
+  (Session info: chrome=131.0.6778.85)
+Stacktrace:
+#0 0x55ae26ae792e <unknown>
+#1 0x55ae266171d8 <unknown>
+#2 0x55ae26601ecc <unknown>
+#3 0x55ae26600828 <unknown>
+#4 0x55ae26600954 <unknown>
+#5 0x55ae2661a5d2 <unknown>
+#6 0x55ae266ad40f <unknown>
+#7 0x55ae2668d4d2 <unknown>
+#8 0x55ae266aceb2 <unknown>
+#9 0x55ae2668d273 <unknown>
+#10 0x55ae266584f8 <unknown>
+#11 0x55ae266594ae <unknown>
+#12 0x55ae26abac16 <unknown>
+#13 0x55ae26abdf40 <unknown>
+#14 0x55ae26abd9f8 <unknown>
+#15 0x55ae26abe3b5 <unknown>
+#16 0x55ae26aabaee <unknown>
+#17 0x55ae26abe6ff <unknown>
+#18 0x55ae26a95905 <unknown>
+#19 0x55ae26ad6ce5 <unknown>
+#20 0x55ae26ad6ec6 <unknown>
+#21 0x55ae26ae6735 <unknown>
+#22 0x7f1218c1a1c4 <unknown>
+
+2024-12-04 13:48:35 - INFO - Encerrando a execução do LoginBot
+2024-12-04 13:48:35 - INFO - Encerrando o WebDriver
+2024-12-04 14:00:58 - INFO - Inicializando o robô de login
+2024-12-04 14:01:03 - INFO - Criando a instância do LoginBot
+2024-12-04 14:01:03 - INFO - Iniciando o acesso
+2024-12-04 14:01:03 - INFO - Acessando a URL: https://sso.santander.ada.tech/
+2024-12-04 14:01:04 - INFO - Aguardando o campo de nome de usuário ficar disponível
+2024-12-04 14:01:04 - INFO - Preenchendo o campo de nome de usuário
+2024-12-04 14:01:04 - INFO - Preenchendo o campo de senha
+2024-12-04 14:01:04 - INFO - Clicando no botão de login
+2024-12-04 14:01:04 - ERROR - Erro inesperado durante o login: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button.__ada-buttonClassName sc-c7aa8dd5-6 dsmktR"}
+  (Session info: chrome=131.0.6778.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55e30f1a692e <unknown>
+#1 0x55e30ecd6360 <unknown>
+#2 0x55e30ed23f52 <unknown>
+#3 0x55e30ed24151 <unknown>
+#4 0x55e30ed6e3b4 <unknown>
+#5 0x55e30ed4c4fd <unknown>
+#6 0x55e30ed6beb2 <unknown>
+#7 0x55e30ed4c273 <unknown>
+#8 0x55e30ed174f8 <unknown>
+#9 0x55e30ed184ae <unknown>
+#10 0x55e30f179c16 <unknown>
+#11 0x55e30f17cf40 <unknown>
+#12 0x55e30f17c9f8 <unknown>
+#13 0x55e30f17d3b5 <unknown>
+#14 0x55e30f16aaee <unknown>
+#15 0x55e30f17d6ff <unknown>
+#16 0x55e30f154905 <unknown>
+#17 0x55e30f195ce5 <unknown>
+#18 0x55e30f195ec6 <unknown>
+#19 0x55e30f1a5735 <unknown>
+#20 0x7f5f3ed4a1c4 <unknown>
+
+2024-12-04 14:01:04 - INFO - Encerrando a execução do LoginBot
+2024-12-04 14:01:04 - INFO - Encerrando o WebDriver
+2024-12-04 14:02:36 - INFO - Inicializando o robô de login
+2024-12-04 14:02:41 - INFO - Criando a instância do LoginBot
+2024-12-04 14:02:41 - INFO - Iniciando o acesso
+2024-12-04 14:02:41 - INFO - Acessando a URL: https://sso.santander.ada.tech/
+2024-12-04 14:02:42 - INFO - Aguardando o campo de nome de usuário ficar disponível
+2024-12-04 14:02:42 - INFO - Preenchendo o campo de nome de usuário
+2024-12-04 14:02:42 - INFO - Preenchendo o campo de senha
+2024-12-04 14:02:42 - INFO - Clicando no botão de login
+2024-12-04 14:02:44 - INFO - Verificando se o login foi bem-sucedido
+2024-12-04 14:02:44 - INFO - Login realizado com sucesso!
+2024-12-04 14:02:44 - INFO - Encerrando a execução do LoginBot
+2024-12-04 14:02:44 - INFO - Encerrando o WebDriver
